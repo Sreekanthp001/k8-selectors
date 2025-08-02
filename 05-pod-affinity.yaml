@@ -28,6 +28,6 @@ spec:
             values:
             - pod-1
         topologyKey: "kubernetes.i0/hostname"
-containers:
-- name: pod-2
-  image: nginx      
+  containers:
+  - name: pod-2
+    image: nginx      
