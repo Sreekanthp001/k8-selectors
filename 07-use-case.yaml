@@ -34,11 +34,11 @@ spec:
   selector:
     matchLabels:
       app: web-store
-    replicas: 3
-    template:
-      metadata:
-        labels:
-          app: web-store
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: web-store
       spec:
         affinity:
           podAntiAffinity:
