@@ -12,7 +12,7 @@ spec:
       #       operator: In 
       #       values:
       #       - gpu 
-      preferredDuringSchedulingIgnoreDuringExecution:
+      preferredDuringSchedulingIgnoredDuringExecution:
       - weight: 1
         preference: 
           matchExpressions:
